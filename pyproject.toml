@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"] # REQUIRED if [build-system] table is used
+build-backend = "setuptools.build_meta" # If not defined, then legacy behavior can happen.
+
+
+[project]
+name = "trr-sim"
+version = "0.1.0"
+description = "Simulation tool for the Toulouse Robot Race"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE.txt" }
+keywords = ["simulation", "robotic", "bullet"]
+authors = [{ name = "Thomas Chamelot", email = "chamelot.thomas@gmail.com" }]
