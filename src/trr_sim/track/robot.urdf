@@ -1,0 +1,598 @@
+<robot name="onshape">
+<link name="track">
+<!-- Shapes for track -->
+<collision>
+<origin xyz="-3.424750000000000405 2.2049150000000001803 -0.0015000000000000000312" rpy="3.141592653589793116 -0 0" />
+<geometry>
+<box size="10.020500000000000185 5.6098299999999996501 0.0030000000000000000625" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-6.9249999999999998224 1 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<cylinder length="0.2000000000000000111" radius="0.5" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.4244799999999999685 3.4998299999999997745 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<cylinder length="0.2000000000000000111" radius="0.5" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="0.075524700000000000166 0.99982899999999996776 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<cylinder length="0.2000000000000000111" radius="0.5" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-5.2619899999999999451 2.5153600000000002623 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<cylinder length="0.2000000000000000111" radius="0.5" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-1.4244799999999999685 2.9998299999999997745 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<cylinder length="0.2000000000000000111" radius="0.5" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.4249999999999998224 0.50491450000000004383 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<box size="7 0.010170999999999999486 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.4249999999999998224 -0.50500000000000000444 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<box size="7 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-6.269522589500000187 1.2843546869999999949 0.10000000000000000555" rpy="0 -0 -0.35604711939012489985" />
+<geometry>
+<box size="1.0304999999999999716 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-5.5461846274040000893 1.0578062774819998459 0.10000000000000000555" rpy="0 -0 -0.19256598319243303785" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-5.0630105383580010781 1.0437567550830000318 0.10000000000000000555" rpy="0 -0 0.13439726628667053587" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-4.6009192143120003493 1.1856160607460000112 0.10000000000000000555" rpy="0 -0 0.46135966212228174399" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-4.1791023421199993138 1.5134362620400001465 0.10000000000000000555" rpy="0 -0 0.82421179159462820696" />
+<geometry>
+<box size="0.59416000000000002146 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.884987873827000282 1.9593982438940003021 0.10000000000000000555" rpy="0 -0 1.1870649726732975804" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.7793764282564996648 2.4311040124589999856 0.10000000000000000555" rpy="0 -0 -0.056768991010509320394" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.7771642159150000673 2.7493982035850001999 0.10000000000000000555" rpy="0 -0 0.15633102192884801296" />
+<geometry>
+<box size="0.010000000000000000208 0.14879400000000000959 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.8489072642000001778 3.1108604346499997284 0.10000000000000000555" rpy="0 -0 0.20594888048933390756" />
+<geometry>
+<box size="0.010000000000000000208 0.58789999999999997815 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.9294799999999998619 3.2498299999999997745 0.10000000000000000555" rpy="0 -0 3.141592653589793116" />
+<geometry>
+<box size="0.010000000000000000208 0.5 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.8896800382259999473 2.758140228622999679 0.10000000000000000555" rpy="0 -0 -2.9781114753480655288" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.7344305246420002042 2.3003710957559997397 0.10000000000000000555" rpy="0 -0 -2.6511483863126552585" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.4403866210060001229 1.9167131909349996999 0.10000000000000000555" rpy="0 -0 -0.7533897484660657673" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.0387030701810000544 1.6478145366490000168 0.10000000000000000555" rpy="0 -0 -0.4264277090353936206" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-1.6200795454599998813 1.520648067010000215 0.10000000000000000555" rpy="0 -0 -0.13147340674381793879" />
+<geometry>
+<box size="0.39328399999999996695 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-0.67447999999999996845 1.4948299999999998811 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<box size="1.5 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-7.1666897713769994738 -0.46520003822599997889 0.10000000000000000555" rpy="0 -0 2.9781114753480655288" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-7.6244589042439994131 -0.30995352464199998899 0.10000000000000000555" rpy="0 -0 2.6511483863126552585" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-8.0081205490649995937 -0.01591077100600002403 0.10000000000000000555" rpy="0 -0 2.3241860752609624363" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-8.2770145366490002203 0.38577407018099996172 0.10000000000000000555" rpy="0 -0 -2.7151649445543997174" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-8.4026629302213997619 0.85253923653300001106 0.10000000000000000555" rpy="0 -0 -3.0421280833254735754" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-8.3717327198709998726 1.3349269843460001006 0.10000000000000000555" rpy="0 -0 2.9140944176799985499" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-8.1875222345349989439 1.7818259107650000761 0.10000000000000000555" rpy="0 -0 2.5871321097369572861" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-7.8695378045049988458 2.145888724074000109 0.10000000000000000555" rpy="0 -0 0.68937337902465056771" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-7.4514791741049997142 2.3885367442989999809 0.10000000000000000555" rpy="0 -0 0.36241030692636594379" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-6.9776295162680010975 2.4840689602924004298 0.10000000000000000555" rpy="0 -0 0.035447815800959250887" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-6.5666055653600006181 2.4516745772399999304 0.10000000000000000555" rpy="0 -0 -0.24204033992492260396" />
+<geometry>
+<box size="0.34127999999999997227 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-5.9174625895000003695 2.2310046869999999863 0.10000000000000000555" rpy="0 -0 -0.35604711939012489985" />
+<geometry>
+<box size="1.0304999999999999716 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-4.8375627357999997358 2.9043195653500002429 0.10000000000000000555" rpy="0 -0 -2.9356437731004594305" />
+<geometry>
+<box size="0.010000000000000000208 0.58789999999999997815 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-4.9081409572212004733 3.4367869321619997081 0.10000000000000000555" rpy="0 -0 -3.0991250732467019446" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-4.8497799951629998461 3.9166256988070000666 0.10000000000000000555" rpy="0 -0 2.8570973040195641879" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-4.6404103901220006279 4.3523129176279997665 0.10000000000000000555" rpy="0 -0 2.530134623590284626" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-4.3022031471250006263 4.6976699262529999501 0.10000000000000000555" rpy="0 -0 0.63237627576637089888" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.8710000852870001253 4.9161056329969996526 0.10000000000000000555" rpy="0 -0 0.30541287065032229897" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-3.3924779008920000756 4.9844884272775002998 0.10000000000000000555" rpy="0 -0 -0.021549163990626049592" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.9173481724580003771 4.8955489176310003074 0.10000000000000000555" rpy="0 -0 -0.34851136425517664774" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.495951386289999796 4.6587347478919998167 0.10000000000000000555" rpy="0 -0 -0.67547495902909071575" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-2.1729395857500000133 4.2991311948350006134 0.10000000000000000555" rpy="0 -0 0.56835940264011275413" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-1.9825366877290000467 3.8548277166550000139 0.10000000000000000555" rpy="0 -0 0.24139664666933052795" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-1.9217554562178500444 3.5584025427562497867 0.10000000000000000555" rpy="0 -0 0.038957663186651281251" />
+<geometry>
+<box size="0.01000750000000000077 0.11684399999999998954 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-1.919480000000000075 3.2498299999999997745 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<box size="0.010000000000000000208 0.5 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="-0.67447999999999996845 2.5048299999999996679 0.10000000000000000555" rpy="0 -0 0" />
+<geometry>
+<box size="1.5 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="0.31721447137699998464 2.4650300382259997534 0.10000000000000000555" rpy="0 -0 -0.16348117824172778145" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="0.77498590424400004562 2.3097805246420000103 0.10000000000000000555" rpy="0 -0 -0.49044426727713807956" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="1.1586455490650000577 2.0157377710060000453 0.10000000000000000555" rpy="0 -0 -0.81740657832883090173" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="1.4275399533509998129 1.6140592801810000889 0.10000000000000000555" rpy="0 -0 -1.1443686177595029374" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="1.5531829302214001931 1.1472897634670000677 0.10000000000000000555" rpy="0 -0 0.099464570264319665527" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="1.5222627198709999252 0.66490101565400006045 0.10000000000000000555" rpy="0 -0 -0.22749823590979448285" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="1.3380522345350001068 0.21799878923499996231 0.10000000000000000555" rpy="0 -0 -0.55446054385283605193" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="1.0200637354949999569 -0.14606372592599997651 0.10000000000000000555" rpy="0 -0 -0.88142294777024610131" />
+<geometry>
+<box size="0.010000000000000000208 0.48826199999999997381 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="0.60200017410499995218 -0.38871274429899993486 0.10000000000000000555" rpy="0 -0 -2.7791823466634273387" />
+<geometry>
+<box size="0.48826199999999997381 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<collision>
+<origin xyz="0.22396983515849999691 -0.49027005692490005506 0.10000000000000000555" rpy="0 -0 0.098718889115153710123" />
+<geometry>
+<box size="0.29840699999999997782 0.010000000000000000208 0.2000000000000000111" />
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual><geometry><box size="0 0 0" /></geometry></visual>
+</link>
+
+<link name="track_1">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///finish_line.stl"/>
+</geometry>
+<material name="track_1_visual_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_1_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_1" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_2">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///left_rail.stl"/>
+</geometry>
+<material name="track_2_visual_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_2_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_3">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///right_rail.stl"/>
+</geometry>
+<material name="track_3_visual_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_3_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_4">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///left_line.stl"/>
+</geometry>
+<material name="track_4_visual_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_4_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_4" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_5">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///track.stl"/>
+</geometry>
+<material name="track_5_visual_material">
+<color rgba="0.50196078431372548323 0.50196078431372548323 0.50196078431372548323 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_5_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_5" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_6">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///center_line.stl"/>
+</geometry>
+<material name="track_6_visual_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_6_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_6" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_7">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///right_line.stl"/>
+</geometry>
+<material name="track_7_visual_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_7_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_7" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_8">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///finish.stl"/>
+</geometry>
+<material name="track_8_visual_material">
+<color rgba="0.91372549019607840481 0.64705882352941179736 0.32941176470588234837 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_8_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_8" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="track_9">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="0" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///start_line.stl"/>
+</geometry>
+<material name="track_9_visual_material">
+<color rgba="0.37254901960784314596 0.65490196078431373028 0.23921568627450981448 1.0"/>
+</material>
+</visual>
+</link>
+<joint name="track_9_fixing" type="fixed">
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<parent link="track" />
+<child link="track_9" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>
