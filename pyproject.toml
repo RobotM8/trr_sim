@@ -12,3 +12,12 @@ requires-python = ">=3.9"
 license = { file = "LICENSE.txt" }
 keywords = ["simulation", "robotic", "bullet"]
 authors = [{ name = "Thomas Chamelot", email = "chamelot.thomas@gmail.com" }]
+
+dependencies = [
+    "pybullet_utils",
+    "numpy"
+]
+
+[tool.black]
+line-length = 120
+
