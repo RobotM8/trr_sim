@@ -14,7 +14,7 @@ keywords = ["simulation", "robotic", "bullet"]
 authors = [{ name = "Thomas Chamelot", email = "chamelot.thomas@gmail.com" }]
 
 dependencies = [
-    "pybullet_utils",
+    "pybullet",
     "numpy"
 ]
 
