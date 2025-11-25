@@ -88,6 +88,5 @@ dmypy.json
 cython_debug/
 
 # onshape to robot
-*.stl
 *.part
 *.scad
