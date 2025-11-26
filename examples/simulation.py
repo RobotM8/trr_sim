@@ -21,8 +21,7 @@ def main():
 
     car = p.loadURDF(
         os.path.join(pybullet_data.getDataPath(), "racecar/racecar.urdf"),
-        basePosition=[0.5, 0, 0],
-        baseOrientation=p.getQuaternionFromEuler([0, 0, 3.14]),
+        basePosition=[-0.5, 0, 0],
     )
     inactive_wheels = [3, 5, 7]
     for wheel in inactive_wheels:
@@ -63,7 +62,7 @@ def main():
         if show_map != last_show_map:
             last_show_map = show_map
             pos, quat = p.getBasePositionAndOrientation(car)
-            yaw = -p.getEulerFromQuaternion(quat)[2] - np.pi / 2
+            yaw = -p.getEulerFromQuaternion(quat)[2]
             car_origin = trr_sim.get_waypoints(pos[:2], yaw)
             track_origin = trr_sim.get_waypoints()
             _, ax = plt.subplots(1, 2)
